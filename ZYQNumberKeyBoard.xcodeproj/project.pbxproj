@@ -1,0 +1,578 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D91388E7215F58F700143C96 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D91388E6215F58F700143C96 /* AppDelegate.m */; };
+		D91388EA215F58F700143C96 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D91388E9215F58F700143C96 /* ViewController.m */; };
+		D91388ED215F58F700143C96 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D91388EB215F58F700143C96 /* Main.storyboard */; };
+		D91388EF215F58F800143C96 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D91388EE215F58F800143C96 /* Assets.xcassets */; };
+		D91388F2215F58F800143C96 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D91388F0215F58F800143C96 /* LaunchScreen.storyboard */; };
+		D91388F5215F58F800143C96 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D91388F4215F58F800143C96 /* main.m */; };
+		D91388FF215F58F800143C96 /* ZYQNumberKeyBoardTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D91388FE215F58F800143C96 /* ZYQNumberKeyBoardTests.m */; };
+		D913890A215F58F800143C96 /* ZYQNumberKeyBoardUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D9138909215F58F800143C96 /* ZYQNumberKeyBoardUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D91388FB215F58F800143C96 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D91388DA215F58F700143C96 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D91388E1215F58F700143C96;
+			remoteInfo = ZYQNumberKeyBoard;
+		};
+		D9138906215F58F800143C96 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D91388DA215F58F700143C96 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D91388E1215F58F700143C96;
+			remoteInfo = ZYQNumberKeyBoard;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D91388E2215F58F700143C96 /* ZYQNumberKeyBoard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZYQNumberKeyBoard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D91388E5215F58F700143C96 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D91388E6215F58F700143C96 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D91388E8215F58F700143C96 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D91388E9215F58F700143C96 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D91388EC215F58F700143C96 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D91388EE215F58F800143C96 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D91388F1215F58F800143C96 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D91388F3215F58F800143C96 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D91388F4215F58F800143C96 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D91388FA215F58F800143C96 /* ZYQNumberKeyBoardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZYQNumberKeyBoardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D91388FE215F58F800143C96 /* ZYQNumberKeyBoardTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYQNumberKeyBoardTests.m; sourceTree = "<group>"; };
+		D9138900215F58F800143C96 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D9138905215F58F800143C96 /* ZYQNumberKeyBoardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZYQNumberKeyBoardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9138909215F58F800143C96 /* ZYQNumberKeyBoardUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYQNumberKeyBoardUITests.m; sourceTree = "<group>"; };
+		D913890B215F58F800143C96 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D91388DF215F58F700143C96 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D91388F7215F58F800143C96 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9138902215F58F800143C96 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D91388D9215F58F700143C96 = {
+			isa = PBXGroup;
+			children = (
+				D91388E4215F58F700143C96 /* ZYQNumberKeyBoard */,
+				D91388FD215F58F800143C96 /* ZYQNumberKeyBoardTests */,
+				D9138908215F58F800143C96 /* ZYQNumberKeyBoardUITests */,
+				D91388E3215F58F700143C96 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D91388E3215F58F700143C96 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D91388E2215F58F700143C96 /* ZYQNumberKeyBoard.app */,
+				D91388FA215F58F800143C96 /* ZYQNumberKeyBoardTests.xctest */,
+				D9138905215F58F800143C96 /* ZYQNumberKeyBoardUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D91388E4215F58F700143C96 /* ZYQNumberKeyBoard */ = {
+			isa = PBXGroup;
+			children = (
+				D91388E5215F58F700143C96 /* AppDelegate.h */,
+				D91388E6215F58F700143C96 /* AppDelegate.m */,
+				D91388E8215F58F700143C96 /* ViewController.h */,
+				D91388E9215F58F700143C96 /* ViewController.m */,
+				D91388EB215F58F700143C96 /* Main.storyboard */,
+				D91388EE215F58F800143C96 /* Assets.xcassets */,
+				D91388F0215F58F800143C96 /* LaunchScreen.storyboard */,
+				D91388F3215F58F800143C96 /* Info.plist */,
+				D91388F4215F58F800143C96 /* main.m */,
+			);
+			path = ZYQNumberKeyBoard;
+			sourceTree = "<group>";
+		};
+		D91388FD215F58F800143C96 /* ZYQNumberKeyBoardTests */ = {
+			isa = PBXGroup;
+			children = (
+				D91388FE215F58F800143C96 /* ZYQNumberKeyBoardTests.m */,
+				D9138900215F58F800143C96 /* Info.plist */,
+			);
+			path = ZYQNumberKeyBoardTests;
+			sourceTree = "<group>";
+		};
+		D9138908215F58F800143C96 /* ZYQNumberKeyBoardUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D9138909215F58F800143C96 /* ZYQNumberKeyBoardUITests.m */,
+				D913890B215F58F800143C96 /* Info.plist */,
+			);
+			path = ZYQNumberKeyBoardUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D91388E1215F58F700143C96 /* ZYQNumberKeyBoard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D913890E215F58F800143C96 /* Build configuration list for PBXNativeTarget "ZYQNumberKeyBoard" */;
+			buildPhases = (
+				D91388DE215F58F700143C96 /* Sources */,
+				D91388DF215F58F700143C96 /* Frameworks */,
+				D91388E0215F58F700143C96 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZYQNumberKeyBoard;
+			productName = ZYQNumberKeyBoard;
+			productReference = D91388E2215F58F700143C96 /* ZYQNumberKeyBoard.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D91388F9215F58F800143C96 /* ZYQNumberKeyBoardTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D9138911215F58F800143C96 /* Build configuration list for PBXNativeTarget "ZYQNumberKeyBoardTests" */;
+			buildPhases = (
+				D91388F6215F58F800143C96 /* Sources */,
+				D91388F7215F58F800143C96 /* Frameworks */,
+				D91388F8215F58F800143C96 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D91388FC215F58F800143C96 /* PBXTargetDependency */,
+			);
+			name = ZYQNumberKeyBoardTests;
+			productName = ZYQNumberKeyBoardTests;
+			productReference = D91388FA215F58F800143C96 /* ZYQNumberKeyBoardTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D9138904215F58F800143C96 /* ZYQNumberKeyBoardUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D9138914215F58F800143C96 /* Build configuration list for PBXNativeTarget "ZYQNumberKeyBoardUITests" */;
+			buildPhases = (
+				D9138901215F58F800143C96 /* Sources */,
+				D9138902215F58F800143C96 /* Frameworks */,
+				D9138903215F58F800143C96 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D9138907215F58F800143C96 /* PBXTargetDependency */,
+			);
+			name = ZYQNumberKeyBoardUITests;
+			productName = ZYQNumberKeyBoardUITests;
+			productReference = D9138905215F58F800143C96 /* ZYQNumberKeyBoardUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D91388DA215F58F700143C96 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = eagle;
+				TargetAttributes = {
+					D91388E1215F58F700143C96 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					D91388F9215F58F800143C96 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = D91388E1215F58F700143C96;
+					};
+					D9138904215F58F800143C96 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = D91388E1215F58F700143C96;
+					};
+				};
+			};
+			buildConfigurationList = D91388DD215F58F700143C96 /* Build configuration list for PBXProject "ZYQNumberKeyBoard" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D91388D9215F58F700143C96;
+			productRefGroup = D91388E3215F58F700143C96 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D91388E1215F58F700143C96 /* ZYQNumberKeyBoard */,
+				D91388F9215F58F800143C96 /* ZYQNumberKeyBoardTests */,
+				D9138904215F58F800143C96 /* ZYQNumberKeyBoardUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D91388E0215F58F700143C96 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D91388F2215F58F800143C96 /* LaunchScreen.storyboard in Resources */,
+				D91388EF215F58F800143C96 /* Assets.xcassets in Resources */,
+				D91388ED215F58F700143C96 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D91388F8215F58F800143C96 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9138903215F58F800143C96 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D91388DE215F58F700143C96 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D91388EA215F58F700143C96 /* ViewController.m in Sources */,
+				D91388F5215F58F800143C96 /* main.m in Sources */,
+				D91388E7215F58F700143C96 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D91388F6215F58F800143C96 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D91388FF215F58F800143C96 /* ZYQNumberKeyBoardTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9138901215F58F800143C96 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D913890A215F58F800143C96 /* ZYQNumberKeyBoardUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D91388FC215F58F800143C96 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D91388E1215F58F700143C96 /* ZYQNumberKeyBoard */;
+			targetProxy = D91388FB215F58F800143C96 /* PBXContainerItemProxy */;
+		};
+		D9138907215F58F800143C96 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D91388E1215F58F700143C96 /* ZYQNumberKeyBoard */;
+			targetProxy = D9138906215F58F800143C96 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D91388EB215F58F700143C96 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D91388EC215F58F700143C96 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D91388F0215F58F800143C96 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D91388F1215F58F800143C96 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D913890C215F58F800143C96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D913890D215F58F800143C96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D913890F215F58F800143C96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ZYQNumberKeyBoard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = eagle.ZYQNumberKeyBoard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D9138910215F58F800143C96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ZYQNumberKeyBoard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = eagle.ZYQNumberKeyBoard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D9138912215F58F800143C96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ZYQNumberKeyBoardTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = eagle.ZYQNumberKeyBoardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZYQNumberKeyBoard.app/ZYQNumberKeyBoard";
+			};
+			name = Debug;
+		};
+		D9138913215F58F800143C96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ZYQNumberKeyBoardTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = eagle.ZYQNumberKeyBoardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZYQNumberKeyBoard.app/ZYQNumberKeyBoard";
+			};
+			name = Release;
+		};
+		D9138915215F58F800143C96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ZYQNumberKeyBoardUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = eagle.ZYQNumberKeyBoardUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ZYQNumberKeyBoard;
+			};
+			name = Debug;
+		};
+		D9138916215F58F800143C96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ZYQNumberKeyBoardUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = eagle.ZYQNumberKeyBoardUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ZYQNumberKeyBoard;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D91388DD215F58F700143C96 /* Build configuration list for PBXProject "ZYQNumberKeyBoard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D913890C215F58F800143C96 /* Debug */,
+				D913890D215F58F800143C96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D913890E215F58F800143C96 /* Build configuration list for PBXNativeTarget "ZYQNumberKeyBoard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D913890F215F58F800143C96 /* Debug */,
+				D9138910215F58F800143C96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D9138911215F58F800143C96 /* Build configuration list for PBXNativeTarget "ZYQNumberKeyBoardTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9138912215F58F800143C96 /* Debug */,
+				D9138913215F58F800143C96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D9138914215F58F800143C96 /* Build configuration list for PBXNativeTarget "ZYQNumberKeyBoardUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9138915215F58F800143C96 /* Debug */,
+				D9138916215F58F800143C96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D91388DA215F58F700143C96 /* Project object */;
+}
