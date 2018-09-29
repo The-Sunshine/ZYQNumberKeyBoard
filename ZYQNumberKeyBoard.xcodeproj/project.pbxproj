@@ -15,6 +15,7 @@
 		D91388F5215F58F800143C96 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D91388F4215F58F800143C96 /* main.m */; };
 		D91388FF215F58F800143C96 /* ZYQNumberKeyBoardTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D91388FE215F58F800143C96 /* ZYQNumberKeyBoardTests.m */; };
 		D913890A215F58F800143C96 /* ZYQNumberKeyBoardUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D9138909215F58F800143C96 /* ZYQNumberKeyBoardUITests.m */; };
+		D9138919215F592F00143C96 /* ZYQNumberKeyBoard.m in Sources */ = {isa = PBXBuildFile; fileRef = D9138918215F592F00143C96 /* ZYQNumberKeyBoard.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		D9138905215F58F800143C96 /* ZYQNumberKeyBoardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZYQNumberKeyBoardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9138909215F58F800143C96 /* ZYQNumberKeyBoardUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYQNumberKeyBoardUITests.m; sourceTree = "<group>"; };
 		D913890B215F58F800143C96 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D9138917215F592E00143C96 /* ZYQNumberKeyBoard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYQNumberKeyBoard.h; sourceTree = "<group>"; };
+		D9138918215F592F00143C96 /* ZYQNumberKeyBoard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYQNumberKeyBoard.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				D91388E6215F58F700143C96 /* AppDelegate.m */,
 				D91388E8215F58F700143C96 /* ViewController.h */,
 				D91388E9215F58F700143C96 /* ViewController.m */,
+				D9138917215F592E00143C96 /* ZYQNumberKeyBoard.h */,
+				D9138918215F592F00143C96 /* ZYQNumberKeyBoard.m */,
 				D91388EB215F58F700143C96 /* Main.storyboard */,
 				D91388EE215F58F800143C96 /* Assets.xcassets */,
 				D91388F0215F58F800143C96 /* LaunchScreen.storyboard */,
@@ -263,6 +268,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D91388EA215F58F700143C96 /* ViewController.m in Sources */,
+				D9138919215F592F00143C96 /* ZYQNumberKeyBoard.m in Sources */,
 				D91388F5215F58F800143C96 /* main.m in Sources */,
 				D91388E7215F58F700143C96 /* AppDelegate.m in Sources */,
 			);
