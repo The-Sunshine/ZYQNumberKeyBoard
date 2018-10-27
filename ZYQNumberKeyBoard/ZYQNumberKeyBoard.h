@@ -10,11 +10,10 @@
 @optional
 
 /** textfield 输入时 可限制长度 */
-
-- (void)KeyBoardTextFieldInputNumber:(NSInteger)number;
+- (void)KeyBoardTextFieldInputNumber:(NSInteger)number TextField:(UITextField *)textField;
 
 /** 确定按钮 */
-- (void)KeyBoardTextFieldSureClick;
+- (void)KeyBoardTextFieldSureClick:(UITextField *)textField;
 
 @end
 
